@@ -27,3 +27,9 @@ Given these diagnostic difficulties, I am exploring a machine learning approach 
   <li>Naive Bayes (NB): Simplifies the calculation of probabilities by assuming that all features are independent of one another (a strong but effective assumption). Employs Bayes Theorem to calculate the probabilities that the instance to be predicted is in each class, then finds the class with the highest probability.</li>
   <li>Gradient Boost (GB): Generally used when seeking a model with very high predictive performance. Used to reduce bias and variance (“error”) by combining multiple “weak learners” (not very good models) to create a “strong learner” (high performance model). Involves 3 elements: a loss function (error function) to be optimized, a weak learner (decision tree) to make predictions, and an additive model to add trees to minimize the loss function. Gradient descent is used to minimize error after adding each tree (one by one).</li>
 </ul>
+<b><h2>Results</h2></b>
+<br><center>
+  
+![image](https://github.com/user-attachments/assets/8bde04ac-103e-4605-90a0-bb1fb84763ce)
+</center>
+
