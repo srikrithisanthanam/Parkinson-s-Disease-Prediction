@@ -1,18 +1,24 @@
 # Parkinson-s-Disease-Prediction
 A Machine Learning Approach for the Diagnosis of Parkinson's Disease via Speech Analysis
 <br><br>
-<b><h3>Introduction</h3></b>
-<br><br>
+<b><h2>Introduction</h2></b>
+<br>
 Parkinson's Disease ranks as the second most prevalent neurodegenerative disorder after Alzheimer's, affecting over 10 million people worldwide. It primarily manifests through the decline of motor and cognitive functions. Diagnosing Parkinson's is challenging due to the absence of a single definitive test; instead, physicians must conduct a thorough clinical evaluation of the patient's medical history. This method, however, is often unreliable. A study by the National Institute of Neurological Disorders indicates that the accuracy of early diagnosis (within the first five years of symptom onset) is only 53%, which is barely better than random guessing. Yet, early diagnosis is vital for effective treatment.<br>
 <br>
-<b>Dataset Used</b><br><br>
+<b><h2>Dataset Used and Description</b></h2><br>
 Given these diagnostic difficulties, I am exploring a machine learning approach to enhance the accuracy of Parkinson's diagnosis, using a dataset of various speech features provided by the University of Oxford. Speech features are highly indicative of Parkinson's disease because nearly every patient with Parkinson's experiences significant vocal degradation, such as difficulties with sustained phonation, tremors, and hoarseness. Thus, using voice analysis for diagnosis is logical. Additionally, this method is non-invasive, inexpensive, and easy to perform in clinical settings.<br>
+<br><ul>
+<li>Source: the University of Oxford</li>
+<li>195 instances (147 subjects with Parkinson’s, 48 without Parkinson’s)</li>
+<li>22 features (elements that are possibly characteristic of Parkinson’s, such as frequency, pitch, amplitude / period of the sound wave)</li>
+<li>1 label (1 for Parkinson’s, 0 for no Parkinson’s)</li>
+<br>
 <b>Performance Metrics</b><br>
 <br>TP = true positive, FP = false positive, TN = true negative, FN = false negative
-<br>Accuracy: (TP+TN)/(P+N)
+<br><b>Accuracy:</b>(TP+TN)/(P+N)
 <br><b>Matthews Correlation Coefficient:</b> 1=perfect, 0=random, -1=completely inaccurate<br>
 
-<b>Algorithms Employed</b>
+<b><h2>Algorithms Employed</h2></b>
 <br>
 <ul>
   <li>Logistic Regression (LR): Uses the sigmoid logistic equation with weights (coefficient values) and biases (constants) to model the probability of a certain class for binary classification. An output of 1 represents one class, and an output of 0 represents the other. Training the model will learn the optimal weights and biases.</li>
