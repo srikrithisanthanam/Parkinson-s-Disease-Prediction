@@ -11,7 +11,7 @@ Given these diagnostic difficulties, I am exploring a machine learning approach 
 <li>Source: the University of Oxford</li>
 <li>195 instances (147 subjects with Parkinson’s, 48 without Parkinson’s)</li>
 <li>22 features (elements that are possibly characteristic of Parkinson’s, such as frequency, pitch, amplitude / period of the sound wave)</li>
-<li>1 label (1 for Parkinson’s, 0 for no Parkinson’s)</li>
+<li>1 label (1 for Parkinson’s, 0 for no Parkinson’s)</li></ul>
 <br>
 <b>Performance Metrics</b><br>
 <br>TP = true positive, FP = false positive, TN = true negative, FN = false negative
